@@ -60,3 +60,7 @@ main{
     outline: none;
     border: none;
 }
+
+.start-btn:hover {
+    background-color: var(--buttonssecondary);
+}

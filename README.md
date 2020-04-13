@@ -11,7 +11,7 @@ A coding quiz pertaining to content about all coding related subjects and lesson
 ## Link to webpage
 https://saul10huerta.github.io/coding-quiz/
 
-![](image here)
+![](coding-quiz.png)
 
 ### Contribution
 Made by Saul Huerta
