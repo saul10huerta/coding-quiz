@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coding Quiz</title>
+    <link rel="stylesheet" href="./assets/css/style.css" type="text/css">
+</head>
+<body>
+    <header>
+        <div>
+            <h1><span id="scores">View high scores</span></h1>
+        </div>
+        <div>
+            <h1>Time:<span id="timer"></span></h1>
+        </div>
+    </header>
+    <main class="grid">
+        <section id="quiz">
+            <div id="intro-section">
+                <h1 id="intro">hello</h1>
+                <p id="intro-prompt">hello1</p>
+                <button id="start-btn">hello 2</button>
+            </div>
+            <div id="question-section">
+                <p id="questions"></p>
+                <div class="buttons">
+                    <button class="btn" id="btn0" type="click"><span id="choice0"></span></button>
+                    <button class="btn" id="btn1" type="click"><span id="choice1"></span></button>
+                    <button class="btn" id="btn2" type="click"><span id="choice2"></span></button>
+                    <button class="btn" id="btn3" type="click"><span id="choice3"></span></button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <hr style="margin-top: 50px">
+    <footer>
+        <p id="answer-status"></p>
+    </footer>
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>

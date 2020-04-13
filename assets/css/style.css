@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --buttonsprimary: #2d0b70;
+    --buttonssecondary: #8f5acf;
+    --buttonstertiary: rgb(247, 247, 247);
+    --black: rgb(8, 8, 8);
+}
+
+body {
+    background: #ffffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0px 20px;
+    font-size: 10px;
+    font-weight: lighter;
+  }
