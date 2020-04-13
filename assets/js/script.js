@@ -1,5 +1,5 @@
 var timerEl = document.getElementById
-
+var arrayQuestions = [];
 
 
 var questions = [
@@ -34,4 +34,13 @@ var score = 0;
 
 for(var i=0; i < questions.length; i++) {
     var response = 
+}
+
+var btnHandler = function(event) {
+    var targetEl = event.target;
+
+    if (targetEl. matches(".start-btn")) {
+        arrayQuestions = questions;
+        if ()
+    }
 }
